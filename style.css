@@ -1,0 +1,29 @@
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.btns{
+    border: 2px solid black;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.btns:hover{
+    box-shadow: 0 0 20px white;
+}
+
+#demo{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 60px;
+}
